@@ -16,6 +16,6 @@
 //= require angular
 //= require angular-resource
 //= require angular-rails-templates
-//= require_tree .
+//= require_tree ./
 
 $(function(){ $(document).foundation(); });
