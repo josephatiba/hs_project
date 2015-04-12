@@ -21,7 +21,7 @@
 
 // Top box styles
 
-// // // // 
+// // // // // // // 
 
 .hs-logo {
   width: 28%;
@@ -41,7 +41,7 @@
     bottom: 0;
     left: 0;
     // background-image: linear-gradient(to bottom right,#002f4b,#dc4225);
-    opacity: .8; 
+    opacity: 1; 
   }
   .intro {
     padding: 3rem;
@@ -69,6 +69,80 @@
     margin: 0 auto;
   }
  
+}
+
+// // // // // // // 
+
+// About Me box styles
+
+// // // // // // // 
+
+
+
+body {
+  background: #222;
+}
+
+.bg-skew-main {
+  height: 65%;
+  background: dodgerblue;
+  transform: skew(0deg, -10deg);
+  margin-top: 89px;
+}
+
+.content {
+  transform: skew(0deg, 10deg);
+  padding-top: 160px;
+  .intro-2 {
+    width: 80%;
+    margin: 0 auto;
+    h1 {
+      color: #fff;
+      text-transform: uppercase;
+      font-weight: 800;
+      text-align: center;
+      margin: 0 auto;
+      span {
+        color: red;
+      }
+    }
+    p {
+      color: #fff;
+      text-transform: none;
+      text-align: center;
+      margin-bottom: 9rem;
+    }
+  }
+  h2, h3 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+  }
+  p {
+    color: #fff;
+    text-align: left;
+  }
+}
+
+
+
+@media only screen and (min-width: 40.063em) and (max-width: 64.062em) {
+  .intro-2 {
+    p.subheader {
+      margin-bottom: 14rem;
+    }
+    h2 {
+      margin: 2rem;
+    }
+  }
+}
+
+@media only screen and (min-width: 64.063em) {
+  .intro-2 {
+    p.subheader {
+      margin-bottom: 18rem;
+    }
+  }
 }
 
 
