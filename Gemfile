@@ -33,9 +33,6 @@ gem 'foundation-rails'
 gem 'better_errors'
 gem 'binding_of_caller'
 
-gem 'angular-rails-templates'
-gem 'angularjs-rails'
-gem 'bower-rails'
 
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'

@@ -13,6 +13,7 @@
  *= require_tree .
  *= require_self
  *= require foundation_and_overrides
+
  */
 
 @import "foundation_and_overrides";
@@ -91,7 +92,7 @@ body {
   margin-bottom: 8.9%;
 }
 
-.content {
+.block2-content {
   transform: skew(0deg, 10deg);
   // padding-top: 40px;
   .intro-2 {
