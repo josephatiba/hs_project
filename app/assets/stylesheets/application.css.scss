@@ -17,6 +17,10 @@
 
 @import "foundation_and_overrides";
 
+body {
+  background: #fff;
+}
+
 // // // // // // // 
 
 // Top box styles
@@ -79,48 +83,27 @@
 
 
 
-body {
-  background: #222;
-}
-
 .bg-skew-main {
   height: 65%;
   background: dodgerblue;
   transform: skew(0deg, -10deg);
-  margin-top: 89px;
+  margin-top: 8.9%;
+  margin-bottom: 8.9%;
 }
 
 .content {
   transform: skew(0deg, 10deg);
-  padding-top: 160px;
+  // padding-top: 40px;
   .intro-2 {
     width: 80%;
     margin: 0 auto;
-    h1 {
+    h4 {
       color: #fff;
       text-transform: uppercase;
       font-weight: 800;
       text-align: center;
       margin: 0 auto;
-      span {
-        color: red;
-      }
     }
-    p {
-      color: #fff;
-      text-transform: none;
-      text-align: center;
-      margin-bottom: 9rem;
-    }
-  }
-  h2, h3 {
-    text-align: center;
-    color: #fff;
-    margin-bottom: 1rem;
-  }
-  p {
-    color: #fff;
-    text-align: left;
   }
 }
 
@@ -144,5 +127,16 @@ body {
     }
   }
 }
+
+// // // // // // // 
+
+// footer styles
+
+// // // // // // // 
+
+.panel {
+  margin-top: 89px;
+}
+
 
 
