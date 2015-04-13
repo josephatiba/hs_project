@@ -33,7 +33,11 @@ gem 'foundation-rails'
 gem 'better_errors'
 gem 'binding_of_caller'
 
+gem 'figaro'
 
+gem 'pry'
+
+gem 'httparty'
 
 
 group :development, :test do
