@@ -27727,10 +27727,12 @@ main {
 .hero {
   background: url("https://s3-us-west-1.amazonaws.com/jbaportfolio/photos/hs-project-assets/santa_monica_beach.jpg") no-repeat center center;
   background-size: cover;
+  margin-left: 0;
+  margin-right: 0;
   height: 100vh;
   margin-top: 0;
 }
-/* line 49, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 51, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 .hero:before {
   content: '';
   position: absolute;
@@ -27740,7 +27742,7 @@ main {
   left: 0;
   opacity: 1;
 }
-/* line 59, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 60, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 .hero .intro {
   padding: 3rem;
   position: relative;
@@ -27748,7 +27750,7 @@ main {
   transform: translateY(-50%);
   text-align: center;
 }
-/* line 66, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 67, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 .hero h1 {
   color: #302E2F;
   font-size: 1.5rem;
@@ -27757,7 +27759,7 @@ main {
   font-weight: 700;
   text-align: center;
 }
-/* line 74, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 75, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 .hero p {
   color: #fff;
   line-height: 1.75em;
@@ -27766,31 +27768,31 @@ main {
   margin-bottom: 2rem;
   background: rgba(0, 0, 0, 0.4);
 }
-/* line 82, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 83, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 .hero a {
   display: inline-block;
 }
 
-/* line 87, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 88, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 #videoModal {
   padding-top: 0;
   padding-left: 0;
   padding-bottom: 0;
   padding-right: 0;
 }
-/* line 92, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 93, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 #videoModal .flex-video.widescreen.vimeo {
   margin-bottom: 0;
 }
 
-/* line 99, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 100, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 #close-modal {
   position: absolute;
   top: -35px;
   right: -30px;
 }
 
-/* line 114, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 115, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 .bg-skew-main {
   height: 65%;
   background: #302E2F;
@@ -27799,16 +27801,16 @@ main {
   margin-bottom: 15%;
 }
 
-/* line 123, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 124, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 .block2-content {
   transform: skew(0deg, 10deg);
 }
-/* line 126, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 127, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 .block2-content .intro-2 {
   width: 80%;
   margin: 0 auto;
 }
-/* line 129, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 130, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 .block2-content .intro-2 h4 {
   color: #fff;
   text-transform: uppercase;
@@ -27817,7 +27819,7 @@ main {
   margin: 0 auto;
 }
 
-/* line 143, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
+/* line 144, /Users/jatiba/wdi/hs/hs_project/app/assets/stylesheets/application.css.scss */
 .accordion {
   margin-left: 0;
 }
