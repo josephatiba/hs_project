@@ -52,7 +52,9 @@ end
 
 gem 'database_cleaner', '~> 1.4.1'
 
+gem 'rails_12factor', group: :production
 
+gem 'thin', group: :production
 
 
 # Use Unicorn as the app server
