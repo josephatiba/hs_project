@@ -37,7 +37,7 @@ body {
 }
 
 .hero {
-  background: url('santa_monica_beach.jpg') no-repeat center center;
+  background: url('https://s3-us-west-1.amazonaws.com/jbaportfolio/photos/hs-project-assets/santa_monica_beach.jpg') no-repeat center center;
   background-size: cover;
   height: 100vh;
   &:before {
@@ -197,64 +197,23 @@ i {
   text-align: center;
   font-size: 2rem;
   background: white;
-  span{
-  display: block;
-  border-radius: 0;
-  width: 0;
-  height: 0;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transition: all 0.3s;  
-  }
-  &:hover span{
-    display: block;
-    border-radius: 3.6rem;
-    width: 3.6rem;
-    height: 3.6rem;
-    margin: -1.8rem;
-  }
-  i {
-  background: none;
-  height: 3.6rem;
-  width: 3.6rem;
-  position: absolute;
-  left: 0;
-  top:0;
-  z-index: 10;
-  line-height: 3.6rem;
-  transition: all 0.3s;
-  }
 }
 
-.twitter span{
-  background-color: #4099ff;
+
+.icon-button.instagram {
+  background: url('https://s3-us-west-1.amazonaws.com/jbaportfolio/photos/hs-project-assets/Instagram_circle.png');
+  background-size: 3.61rem 3.6rem;
 }
 
-.facebook span{
-  background-color: #3B5998;
+.icon-button.github {
+  background-image: url('https://s3-us-west-1.amazonaws.com/jbaportfolio/photos/hs-project-assets/github.png');
+  background-size: 3.6rem 3.6rem;
 }
 
-.gplus span{
-  background-color: #db5a3c;
+.icon-button.linkedin {
+  background: url('https://s3-us-west-1.amazonaws.com/jbaportfolio/photos/hs-project-assets/linkedin_circle.png');
+  background-size: 3.6rem 3.6rem;
 }
 
-.icon-button .fi-social-twitter{
-  color: #4099ff;
-}
 
-.icon-button .fi-social-facebook{
-  color: #3b5998;
-}
-
-.icon-button .fi-social-google-plus {
-  color: #db5a3c;
-}
-
-.icon-button:hover .fi-social-twitter, .icon-button:hover .fi-social-facebook, .icon-button:hover .fi-social-google-plus {
-  color: white;
-  font-size: 2.6rem;
-  line-height: 3.9rem;
-
-}
 
