@@ -7,13 +7,12 @@
             <div class="row">
 
                   <div class="medium-6 columns">
-                  
-                     
+                        
                     
                     <ul class="small-block-grid-3">
 
                     <% @insta.last_nine.each do |insta| %>
-                          <li><a href="#"><%= image_tag(insta) %></a></li>
+                          <li><%= link_to image_tag(insta['images']['thumbnail']['url']), insta['link'], :target => "_blank" %></li>
                       <% end %>
                     </ul>
                   </div>
