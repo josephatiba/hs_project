@@ -75,8 +75,26 @@ body {
   a {
     display: inline-block;
   }
- 
 }
+
+#videoModal {
+  padding-top: 0;
+  padding-left: 0;
+  padding-bottom: 0;
+  padding-right: 0;
+  .flex-video.widescreen.vimeo {
+    margin-bottom: 0;
+  }
+}
+
+
+
+#close-modal {
+  position: absolute;
+  top: -35px;
+  right: -30px;
+}
+
 
 // // // // // // // 
 
