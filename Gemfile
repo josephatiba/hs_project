@@ -30,6 +30,10 @@ gem 'bcrypt', '~> 3.1.7'
 # Styling framework
 gem 'foundation-rails'
 
+group :development do
+  gem 'rails_layout'
+end
+
 gem 'better_errors'
 gem 'binding_of_caller'
 
@@ -55,6 +59,7 @@ gem 'database_cleaner', '~> 1.4.1'
 gem 'rails_12factor', group: :production
 
 gem 'thin', group: :production
+
 
 
 # Use Unicorn as the app server
